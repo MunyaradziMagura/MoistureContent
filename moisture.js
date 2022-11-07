@@ -129,8 +129,8 @@ class moistureContent {
 }
 
 // preform calculations
-const moister = new moistureContent("MT001", 2859.6, 300, 2525.7, "01BAL");
-console.table(moister.valueValidation())
+const moister = new moistureContent("MT001", 2859.6, 0, 2525.7, "01BAL");
+console.log(moister.valueValidation())
 
 
 // export class for testing 
